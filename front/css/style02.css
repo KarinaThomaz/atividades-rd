@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: #fff;
+    font-size: 35px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 20px;
+    background-color: #495468;
+    color: #969eab;
+  }
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
