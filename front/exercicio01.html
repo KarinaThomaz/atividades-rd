@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medicamento Controlado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style01.css">
+</head>
+
+<body>
+    <header>
+        <nav  class="navbar navbar-light bg-light">
+            <h1>Medicamento Controlado</h1>
+        </nav>
+    </header>
+    <main class="container">
+        <form class="row m-3 pb-2">
+            <div class="col-md-6 mx-auto bg-light">
+            <div class="form-group">
+                <label for="crmMedico">CRM: </label>
+                <input class="form-control" type="text" name="crmMedico" id="crmMedico" placeholder="CRM">
+            </div>
+            <div class="form-group">
+                <label for="nomeMedico">Nome do Médico: </label>
+                <input class="form-control" type="text" name="nomeMedico" id="nomeMedico" placeholder="Nome do Médico">
+            </div>
+            <div class="form-group">
+                <label for="dataReceita">Data da Receita: </label>
+                <input class="form-control" type="date" name="dataReceita" id="dataReceita">
+            </div>
+            <div class="form-group">
+                <label for="qtdeCaixa">Quantidade de Caixas: </label>
+                <input class="form-control" type="number" name="qtdeCaixa" id="qtdeCaixa">
+            </div>
+            <div class="form-group">
+                <label for="nomePaciente">Nome do Paciente: </label>
+                <input class="form-control" type="text" name="nomePaciente" id="nomePaciente" placeholder="Nome do Paciente">
+            </div>
+            <div class="form-group">
+                <label for="cpfPaciente">CPF do Paciente: </label>
+                <input class="form-control" type="tel" name="cpfPaciente" id="cpfPaciente" placeholder="CPF do Paciente">
+            </div>
+            <div class="form-group">
+                <label for="nascimentoPaciente">Data de Nascimento do Paciente: </label>
+                <input class="form-control" type="date" name="nascimentoPaciente" id="nascimentoPaciente">
+            </div>
+            <div class=" form-group">
+                    <label for="sexo">Sexo do Paciente</label>
+                    <div class="row">
+                        <div class="col-6">
+                            <input class="" type="radio" id="sexo" name="sexo" value="feminino">
+                            <label for="sexo">Feminino</label>
+                        </div>
+                        <div class="col-6">
+                            <input class="" type="radio" id="sexo" name="sexo" value="masculino">
+                            <label for="sexo">Masculino</label>
+                        </div>
+                    </div>
+            </div>
+            <div>
+                <label for="tipoEnvio">Tipo de Envio</label>
+                <select class="form-control" id="tipoEnvio" name="tipoEnvio">
+                    <option value="" disabled selected>-------</option>
+                    <option value="anexar">Anexar Arquivo</option>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="email">E-mail</option>
+                </select>
+            </div>
+            </div>
+        </form>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/script01.js"></script>
+</body>
+
+</html>
